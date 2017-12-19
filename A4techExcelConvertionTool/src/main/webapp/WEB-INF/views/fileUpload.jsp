@@ -51,7 +51,7 @@ h4 {
              <div class="form-group">
              <c:choose>
              	<c:when test="${ftpMessage == 'success'}">
-             	<h4 style="color: green;">File has been save successfully</h4> 
+             	<h4 style="color: green;">File has been saved successfully</h4> 
              	</c:when>
              	<c:when test="${ftpMessage == 'failure'}">
              	  <h4 style="color: red;">File is not saved ,Please check once!</h4>
